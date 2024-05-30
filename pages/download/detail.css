@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.siswa-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 1;
+}
+
+.left p {
+    margin: 5px 0;
+}
+
+.right {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kop-surat {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .nama-perusahaan {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .alamat-perusahaan {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .kontak {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+
+        .konten {
+            font-size: 14px;
+            line-height: 1.6;
+        }

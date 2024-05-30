@@ -1,0 +1,59 @@
+body {
+            font-family: arial, sans-serif;
+            font-size: 12px;
+        }
+
+        .kop-surat {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .nama-perusahaan {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .alamat-perusahaan {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .kontak {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+
+        .judul {
+            font-size: 18px;
+            font-weight: bold;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        .konten {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #1A120B;
+            text-align: left;
+            padding: 8px;
+        }
