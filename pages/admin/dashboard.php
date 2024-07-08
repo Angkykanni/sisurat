@@ -68,116 +68,104 @@ $keluar = mysqli_fetch_assoc($result_keluar);
                 <div class="row">
                     <div class="col-xxl-4 col-md-4">
                         <div class="card info-card male-card">
-                            <a href="index.php?page=pengajuan-surat">
-                                <div class="card-body">
-                                    <h5 class="card-title-dashboard">Semua Pengajuan</h5>
-                                    <div class="d-flex align-items-center">
-                                        <div
-                                            class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="ri-file-copy-2-line"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h6><?= $pengajuan['total_pengajuan']; ?></h6>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-title-dashboard">Semua Pengajuan</h5>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="ri-file-copy-2-line"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6><?= $pengajuan['total_pengajuan']; ?></h6>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-xxl-4 col-md-4">
                         <div class="card info-card female-card">
-                            <a href="#">
-                                <div class="card-body">
-                                    <h5 class="card-title-dashboard">Pengajuan Diterima</h5>
-                                    <div class="d-flex align-items-center">
-                                        <div
-                                            class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="ri-mail-check-line"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h6><?= $diverifikasi['total_diverifikasi']; ?></h6>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-title-dashboard">Pengajuan Diterima</h5>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="ri-mail-check-line"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6><?= $diverifikasi['total_diverifikasi']; ?></h6>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-xxl-4 col-md-4">
                         <div class="card info-card pns-card">
-                            <a href="#">
-                                <div class="card-body">
-                                    <h5 class="card-title-dashboard">Pengajuan Ditolak</h5>
-                                    <div class="d-flex align-items-center">
-                                        <div
-                                            class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="ri-mail-close-line"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h6><?= $ditolak['total_ditolak']; ?></h6>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-title-dashboard">Pengajuan Ditolak</h5>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="ri-mail-close-line"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6><?= $ditolak['total_ditolak']; ?></h6>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-xxl-4 col-md-4">
                         <div class="card info-card kelas-card">
-                            <a href="#">
-                                <div class="card-body">
-                                    <h5 class="card-title-dashboard">Pengajuan Dalam Proses</h5>
-                                    <div class="d-flex align-items-center">
-                                        <div
-                                            class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="ri-mail-settings-line"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h6><?= $dalam_proses['total_dalam_proses']; ?></h6>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-title-dashboard">Pengajuan Dalam Proses</h5>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="ri-mail-settings-line"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6><?= $dalam_proses['total_dalam_proses']; ?></h6>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-xxl-4 col-md-4">
                         <div class="card info-card suratmasuk-card">
-                            <a href="index.php?page=surat-masuk">
-                                <div class="card-body">
-                                    <h5 class="card-title-dashboard">Surat Masuk</h5>
-                                    <div class="d-flex align-items-center">
-                                        <div
-                                            class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="ri-mail-download-line"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h6><?= $masuk['total_masuk']; ?></h6>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-title-dashboard">Surat Masuk</h5>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="ri-mail-download-line"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6><?= $masuk['total_masuk']; ?></h6>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
 
                     <?php if ($title !== 'Dashboard') : ?>
                     <div class="col-xxl-4 col-md-4">
                         <div class="card info-card nonpns-card">
-                            <a href="index.php?page=surat-keluar">
-                                <div class="card-body">
-                                    <h5 class="card-title-dashboard">Surat Keluar</h5>
-                                    <div class="d-flex align-items-center">
-                                        <div
-                                            class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="ri-mail-send-line"></i>
-                                        </div>
-                                        <div class="ps-3">
-                                            <h6><?= $keluar['total_keluar']; ?></h6>
-                                        </div>
+                            <div class="card-body">
+                                <h5 class="card-title-dashboard">Surat Keluar</h5>
+                                <div class="d-flex align-items-center">
+                                    <div
+                                        class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="ri-mail-send-line"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6><?= $keluar['total_keluar']; ?></h6>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <?php endif; ?>
